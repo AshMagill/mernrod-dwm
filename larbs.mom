@@ -13,8 +13,7 @@
 .HEADING 1 "Based on the origional Larbs by Luke Smith"
 Scroll down to the very bottom of the page to view a list of commands for the MERNROD Vim settings. All questions that are not sutiable for 'issues' in the MERNROD Github repo can be directed to 
 .PDF_WWW_LINK "https://discord.gg/GNfmWj3dsd"
-\(en this discord chat. \br
-Use vim keys (\f(CWh/j/k/l\fP) to navigate this document.
+\(en this discord chat. Use vim keys (\f(CWh/j/k/l\fP) to navigate this document.
 Pressing \f(CWs\fP will fit it to window width (\f(CWa\fP to revert).
 \f(CWK\fP and \f(CWJ\fP zoom in and out.
 \f(CWSuper+f\fP to toggle fullscreen.
@@ -381,14 +380,12 @@ Nerdtree is a sidemenu for Vim, activate it by holding \f(CWctrl\fP and pressing
 Snippets, Emmet, Tabnine, and other Completion suggestions will appear when typing in certain Vim files, press the \f(CWtab\fP button to cycle through the options and \f(CWspace\fP or \f(CWenter\fP to select the option. 
 .HEADING 2 "VRC"
 .PP
-To send HTTP requests for a websile, create a file with the \f(CW.rest\fP extension. Write the HTTP request and then while hovering over it, hold \f(CWctrl\fP and  press \f(CWj\fP. \br
-An Example of a request: \br
+To send HTTP requests for a websile, create a file with the \f(CW.rest\fP extension. Write the HTTP request and then while hovering over it, hold \f(CWctrl\fP and  press \f(CWj\fP. An Example of a request: \br
 \f(CWhttp://localhost:9200
 \fP
-\f(CW
+\f(CW \br
 GET /testindex/testtype
-\fP
-.PP
+\fP \br
 .PDF_WWW_LINK "https://github.com/preservim/nerdcommenter"
 \(en Check the Github repo for a full guide
 .HEADING 2 "Dadbod / Dadbod-UI"
@@ -396,7 +393,7 @@ GET /testindex/testtype
 Dadbod is set up to run from the terminal directly by simply typing the command \f(cwdb\fp. Connect to a mongodb server by entering the URL and selecting \f(CW+New query\fP, the user will then be positioned in the query pane where they can write a query and send it by saving it (\f(CW:w\fP), all saved queries are sent to the folder \f(CW~/Development/dbui-buffers\fP. Press \f(CW?\fP while in the Dadbod-UI menu pane to see all options.
 .HEADING 2 "Tmux Navigator"
 .PP 
-Tmux Navigator is required to move around VRC, Nerdtree and Dadbod-UI, do this by holding \f(CWCrtl\fP and using the Vim Keybindings (\f(cwh,j,k,l\fp). 
+Tmux Navigator is required to move around VRC, Nerdtree and Dadbod-UI, do this by holding \f(CWCrtl\fP and using the Vim keybindings (\f(cwh,j,k,l\fp). 
 .HEADING 2 "Zoom"
 .PP
-When using Dadbod-UI and other plugins with multiple panes, sometimes its necissary to zoom in on one pane, do this by pressing \f(CWbackslash\fp and then \f(CWz\fp.
+When using Dadbod-UI and other plugins with multiple panes, sometimes it's necissary to zoom in on one pane, do this by pressing \f(CWbackslash\fp and then \f(CWz\fp.
