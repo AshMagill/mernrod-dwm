@@ -380,12 +380,8 @@ Nerdtree is a sidemenu for Vim, activate it by holding \f(CWctrl\fP and pressing
 Snippets, Emmet, Tabnine, and other Completion suggestions will appear when typing in certain Vim files, press the \f(CWtab\fP button to cycle through the options and \f(CWspace\fP or \f(CWenter\fP to select the option. 
 .HEADING 2 "VRC"
 .PP
-To send HTTP requests for a websile, create a file with the \f(CW.rest\fP extension. Write the HTTP request and then while hovering over it, hold \f(CWctrl\fP and  press \f(CWj\fP.
-.HEADING 3 "An Example of a request:" 
-.PP\f(CWhttp://localhost:9200\fP\br  
-\f(CWGET /testindex/testtype\fP\br
+To send HTTP requests for a websile, create a file with the \f(CW.rest\fP extension. Write the HTTP request and then while hovering over it, hold \f(CWctrl\fP and  press \f(CWj\fP. Check out the link for a full guide:
 .PDF_WWW_LINK "https://github.com/preservim/nerdcommenter"
-\(en Check the Github repo for a full guide
 .HEADING 2 "Dadbod / Dadbod-UI"
 .PP
 Dadbod is set up to run from the terminal directly by simply typing the command \f(cwdb\fp. Connect to a mongodb server by entering the URL and selecting \f(CW+New query\fP, the user will then be positioned in the query pane where they can write a query and send it by saving it (\f(CW:w\fP), all saved queries are sent to the folder \f(CW~/Development/dbui-buffers\fP. Press \f(CW?\fP while in the Dadbod-UI menu pane to see all options.
