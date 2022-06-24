@@ -357,8 +357,10 @@ You can follow links via the keyboard in this pdf reader by pressing \f(CWf\fP f
 \(en For updates!
 .LIST OFF
 .HEADING 1 "Ash's Vim keybindings"
-.HEADING 2 "Comments"
+.HEADING 2 "Regular Comments"
 .PP
-Regular Comments: The user can comment and uncomment code by hovering over the line of code, then holding \f(CW'ctrl'\fP and pressing the \f(CW'+'\fP button twice.
+The user can comment and uncomment code by hovering over the line of code, then holding \f(CWctrl\fP and pressing the \f(CW+\fP button twice.
+.HEADING 2 "Toggle JSX Comment Mode"
 .PP
-Comments with JSX code: The user can toggle in and out of jsx comment mode by pressing \f(CW'\'\fP followed by \f(CW'c'\fP then \f(CW'a'\fP.
+Commenting out JSX is tricky because the file extension is often javascript, so Vim doesn't know when its working with JSX or vanilla Javascript. A work around for this is toggling in and out of 'JSX Comment Mode' by pressing \f(CWbackslash\fP followed by \f(CWc\fP then \f(CWa\fP.
+
