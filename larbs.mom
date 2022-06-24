@@ -356,11 +356,35 @@ You can follow links via the keyboard in this pdf reader by pressing \f(CWf\fP f
 .PDF_WWW_LINK "http://lukesmith.xyz/rss.xml" "RSS"
 \(en For updates!
 .LIST OFF
-.HEADING 1 "Ash's Vim keybindings"
+.HEADING 1 "Mernrod Vim Commands"
 .HEADING 2 "Regular Comments"
 .PP
 The user can comment and uncomment code by hovering over the line of code, then holding \f(CWctrl\fP and pressing the \f(CW+\fP button twice.
 .HEADING 2 "Toggle JSX Comment Mode"
 .PP
 Commenting out JSX is tricky because the file extension is often javascript, so Vim doesn't know when its working with JSX or vanilla Javascript. A work around for this is toggling in and out of 'JSX Comment Mode' by pressing \f(CWbackslash\fP followed by \f(CWc\fP then \f(CWa\fP.
+.HEADING 2 "Formatting Code"
+.PP
+By default, Vim is set up to format all mern related files on save, alternatively to format the code manually, just use  
+\f(CW:Prettier\fP. If you would like to add more file extensions to be formatted on save, you can edit this file \f(CW~/.config/nvim/coc-settings.json\fP
+.HEADING 2 "Easy Motion"
+.PP
+Use Easy Motion sometimes to get around a document quickly, press \f(CWbacklash\fP twice, then \f(CWb\fP to go back or \f(CWw\fP to go foward. A bunch of highlighted letters will then show up on the screen, type the letter that corresponds with where you want to go on the page. 
+.HEADING 2 "Nerdtree"
+.PP
+Nerdtree is a sidemenu for Vim, activate it by holding \f(CWctrl\fPand pressing \f(CWn\fP. Use Vim keybindings \f(CWh,j,k,l\fP to move around,\f(CWo\fP to open a file or folder, and \f(CWt\fP to open a new file without replacing the current one. When several files have been opened in Nerdtree, they will be shown in tabs along the top of the terminal, to traverse between the tabs, press \f(CWbackslash\fP, followed by numbers 1 to 9 depending on the position of the file. Press \f(CW?\fP while nerdtree is open to see all option.
+.HEADING 2 "Coc"
+.PP
+Snippets, Emmet, Tabnine, and other Competion suggestions will appear when typing in certain Vim files, press the \f(CWtab\fP button to cycle and \f(CWspace\fP or \f(CWenter\fP to select the option. 
+.HEADING 2 "VRC"
+.PP
+To send HTTP requests for a websile, create a file with the \f(CW.rest\fP extension. Write the http request and then while hovering over it, hold \f(CWctrl\fP and  press \f(CWj\fP. 
+.PP 
+An Example of a request:
+\f(CWhttp://localhost:9200
+POST /testindex/testtype
+{
+  "key": "new key",
+  "value": "new value"|
+}\fP
 
