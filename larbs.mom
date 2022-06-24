@@ -377,7 +377,10 @@ Use Easy Motion to move around a document quickly, press \f(CWbacklash\fP twice,
 Nerdtree is a sidemenu for Vim, activate it by holding \f(CWctrl\fP and pressing \f(CWn\fP. Use Vim keybindings \f(CWh,j,k,l\fP to move around, \f(CWo\fP to open a file or folder, and \f(CWt\fP to open a new file without replacing the current one. When several files have been opened in Nerdtree, they will be shown in tabs along the top of the terminal, to traverse between the tabs, press \f(CWbackslash\fP, followed by numbers 1 to 9 depending on the position of the file. Press \f(CW?\fP while nerdtree is open to see all options.
 .HEADING 2 "COC"
 .PP
-Snippets, Emmet, Tabnine, and other Completion suggestions will appear when typing in certain Vim files, press the \f(CWtab\fP button to cycle through the options and \f(CWspace\fP or \f(CWenter\fP to select the option. 
+Snippets, Tabnine, and other Completion suggestions will appear when typing in certain Vim files, press the \f(CWtab\fP button to cycle through the options and \f(CWspace\fP or \f(CWenter\fP to select the option. 
+.HEADING 2 "Emmet"
+.PP
+Emmet completion works by pressing \f(CWcomma\fP twice after the abbreviation.
 .HEADING 2 "VRC"
 .PP
 To send HTTP requests for a websile, create a file with the \f(CW.rest\fP extension. Write the HTTP request and then while hovering over it, hold \f(CWctrl\fP and  press \f(CWj\fP. Check out the link for a full guide:
