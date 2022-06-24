@@ -11,6 +11,9 @@
 .PT_SIZE 12
 .START
 .HEADING 1 "Based on the origional Larbs by Luke Smith"
+Scroll down to the very bottom of the page to view a list of commands for the MERNROD vim settings. All questions that are not sutiable for 'issues' in the MERNROD Github repo can be sent asked in 
+.PDF_WWW_LINK "https://discord.gg/GNfmWj3dsd"
+\(en this discord chat.
 Use vim keys (\f(CWh/j/k/l\fP) to navigate this document.
 Pressing \f(CWs\fP will fit it to window width (\f(CWa\fP to revert).
 \f(CWK\fP and \f(CWJ\fP zoom in and out.
@@ -379,8 +382,7 @@ Snippets, Emmet, Tabnine, and other Completion suggestions will appear when typi
 .HEADING 2 "VRC"
 .PP
 To send HTTP requests for a websile, create a file with the \f(CW.rest\fP extension. Write the HTTP request and then while hovering over it, hold \f(CWctrl\fP and  press \f(CWj\fP. 
-An Example of a request:
-.PP 
+An Example of a request: \br
 \f(CWhttp://localhost:9200
 \fP \br
 \f(CWGET /testindex/testtype
@@ -391,6 +393,8 @@ Dadbod is set up to run from the terminal directly by simply typing the command 
 .HEADING 2 "Tmux Navigator"
 .PP 
 TMUX is gernerally not needed with MERNROD because its much easier to use Nerdtree and DWM to have multiple files open, however it is required to move around VRC, Nerdtree and Dadbod-UI using the Tmux window commands, by holding \f(CWCrtl\fP and using the Vim Keybindings (\f(cwh,j,k,l\fp). 
-.HEADING 2 "ZOOM"
+.HEADING 2 "Zoom"
 .PP
 When using Dadbod-UI and other plugins with multiple panes, sometimes its necissary to zoom in on one pane, do this by pressing \f(CWbackslash\fp and then \f(CWz\fp.
+.HEADING 1 "Configuration For Multiple Monitors"
+.PP
