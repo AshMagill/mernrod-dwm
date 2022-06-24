@@ -382,9 +382,8 @@ To send HTTP requests for a websile, create a file with the \f(CW.rest\fP extens
 An Example of a request:
 .PP 
 \f(CWhttp://localhost:9200
-POST /testindex/testtype
-{
-  "key": "new key",
-  "value": "new value"|
-}\fP
-
+\f(CWGET /testindex/testtype
+\fP
+.HEADING 2 "Dadbod / Dadbod-UI"
+.PP
+Dadbod is set up to run from the terminal directly by simply typing the command \f(CWdb\fP. Connect to a mondodb server by entering the URL and selecting \f(CW+ New query\fP, the user will then be positioned in the querywindow where they can write a query and send it by saving it (\f(CW:w\fP), all saved queries are send to the folder \f(CW~/Development/dbui-buffers\fP.
