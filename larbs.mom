@@ -381,9 +381,9 @@ Snippets, Emmet, Tabnine, and other Completion suggestions will appear when typi
 .HEADING 2 "VRC"
 .PP
 To send HTTP requests for a websile, create a file with the \f(CW.rest\fP extension. Write the HTTP request and then while hovering over it, hold \f(CWctrl\fP and  press \f(CWj\fP. An Example of a request:
-\f(CWhttp://localhost:9200\fP
-\br\f(CWGET /testindex/testtype\fP
-\br.PDF_WWW_LINK "https://github.com/preservim/nerdcommenter"
+\f(CWhttp://localhost:9200\fP\br
+\f(CWGET /testindex/testtype\fP
+.PDF_WWW_LINK "https://github.com/preservim/nerdcommenter"
 \(en Check the Github repo for a full guide
 .HEADING 2 "Dadbod / Dadbod-UI"
 .PP
