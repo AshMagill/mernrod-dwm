@@ -382,8 +382,16 @@ To send HTTP requests for a websile, create a file with the \f(CW.rest\fP extens
 An Example of a request:
 .PP 
 \f(CWhttp://localhost:9200
+\fP
+.PP
 \f(CWGET /testindex/testtype
 \fP
 .HEADING 2 "Dadbod / Dadbod-UI"
 .PP
-Dadbod is set up to run from the terminal directly by simply typing the command \f(CWdb\fP. Connect to a mondodb server by entering the URL and selecting \f(CW+ New query\fP, the user will then be positioned in the querywindow where they can write a query and send it by saving it (\f(CW:w\fP), all saved queries are send to the folder \f(CW~/Development/dbui-buffers\fP.
+Dadbod is set up to run from the terminal directly by simply typing the command \f(cwdb\fp. Connect to a mondodb server by entering the URL and selecting \f(CW+ New query\fP, the user will then be positioned in the querywindow where they can write a query and send it by saving it (\f(CW:w\fP), all saved queries are send to the folder \f(CW~/Development/dbui-buffers\fP. Press \f(CW?\fP while nerdtree is open to see all options.
+.HEADING 2 "Tmux Navigator"
+.PP 
+TMUX is gernerally not needed with MERNROD because its much easier to use Nerdtree and DWM to have multiple files open, however it is required to move around VRC, Nerdtree and Dadbod-UI using the Tmux window commands, by holding \f(CWCrtl\fP and using the Vim Keybindings (\f(cwh,j,k,l\fp). 
+.HEADING 2 "ZOOM"
+.PP
+When using Dadbod-UI and other plugins with multiple panes, sometimes its necissary to zoom in on one pane, do this by pressing \f(CWbackslash\fp and then \f(CWz\fp.
