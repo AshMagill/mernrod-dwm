@@ -358,9 +358,7 @@ You can follow links via the keyboard in this pdf reader by pressing \f(CWf\fP f
 .LIST OFF
 .HEADING 1 "Ash's Vim keybindings"
 .HEADING 2 "Comments"
-.LI
-.ITEM
-\f(CWWhile hovering on a line of code hold Ctrl and press '+' twice\fP \(en Comment out / uncomment
-.ITEM
-\f(CWbackslash, backslash, c, a\fP \(en toggle in and out of jsx comment mode
-.LIST OFF
+.PP
+Regular Comments: The user can comment and uncomment code by hovering over the line of code, then holding \f(CW'ctrl'\fP and pressing the \f(CW'+'\fP button twice.
+.PP
+Comments with JSX code: The user can toggle in and out of jsx comment mode by pressing \f(CW'\'\fP followed by \f(CW'c'\fP then \f(CW'a'\fP.
