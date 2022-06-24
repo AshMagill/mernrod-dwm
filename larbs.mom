@@ -11,7 +11,7 @@
 .PT_SIZE 12
 .START
 .HEADING 1 "Based on the origional Larbs by Luke Smith"
-Scroll down to the very bottom of the page to view a list of commands for the MERNROD vim settings. All questions that are not sutiable for 'issues' in the MERNROD Github repo can be sent asked in 
+Scroll down to the very bottom of the page to view a list of commands for the MERNROD vim settings. All questions that are not sutiable for 'issues' in the MERNROD Github repo can be asked in 
 .PDF_WWW_LINK "https://discord.gg/GNfmWj3dsd"
 \(en this discord chat.
 Use vim keys (\f(CWh/j/k/l\fP) to navigate this document.
@@ -360,7 +360,8 @@ You can follow links via the keyboard in this pdf reader by pressing \f(CWf\fP f
 \(en For updates!
 .LIST OFF
 .HEADING 1 "Mernrod Vim Commands"
-.HEADING 2 "Regular Comments"
+.HEADING 2 "Nerd Commenter"
+.PDF_WWW_LINK "https://github.com/preservim/nerdcommenter"
 .PP
 The user can comment and uncomment code by hovering over the line of code, then holding \f(CWctrl\fP and pressing the \f(CW+\fP button twice.
 .HEADING 2 "Toggle JSX Comment Mode"
@@ -396,5 +397,3 @@ TMUX is gernerally not needed with MERNROD because its much easier to use Nerdtr
 .HEADING 2 "Zoom"
 .PP
 When using Dadbod-UI and other plugins with multiple panes, sometimes its necissary to zoom in on one pane, do this by pressing \f(CWbackslash\fp and then \f(CWz\fp.
-.HEADING 1 "Configuration For Multiple Monitors"
-.PP
