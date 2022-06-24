@@ -356,3 +356,11 @@ You can follow links via the keyboard in this pdf reader by pressing \f(CWf\fP f
 .PDF_WWW_LINK "http://lukesmith.xyz/rss.xml" "RSS"
 \(en For updates!
 .LIST OFF
+.HEADING 1 "Ash's Vim keybindings"
+.HEADING 2 "Comments"
+.LI
+.ITEM
+\f(CWWhile hovering on a line of code hold Ctrl and press '+' twice\fP \(en Comment out / uncomment
+.ITEM
+\f(CWbackslash, backslash, c, a\fP \(en toggle in and out of jsx comment mode
+.LIST OFF
