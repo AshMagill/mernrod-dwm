@@ -11,9 +11,9 @@
 .PT_SIZE 12
 .START
 .HEADING 1 "Based on the origional Larbs by Luke Smith"
-Scroll down to the very bottom of the page to view a list of commands for the MERNROD vim settings. All questions that are not sutiable for 'issues' in the MERNROD Github repo can be asked in 
+Scroll down to the very bottom of the page to view a list of commands for the MERNROD Vim settings. All questions that are not sutiable for 'issues' in the MERNROD Github repo can be directed to 
 .PDF_WWW_LINK "https://discord.gg/GNfmWj3dsd"
-\(en this discord chat.
+\(en this discord chat. \br
 Use vim keys (\f(CWh/j/k/l\fP) to navigate this document.
 Pressing \f(CWs\fP will fit it to window width (\f(CWa\fP to revert).
 \f(CWK\fP and \f(CWJ\fP zoom in and out.
@@ -361,7 +361,6 @@ You can follow links via the keyboard in this pdf reader by pressing \f(CWf\fP f
 .LIST OFF
 .HEADING 1 "Mernrod Vim Commands"
 .HEADING 2 "Nerd Commenter"
-.PDF_WWW_LINK "https://github.com/preservim/nerdcommenter"
 .PP
 The user can comment and uncomment code by hovering over the line of code, then holding \f(CWctrl\fP and pressing the \f(CW+\fP button twice.
 .HEADING 2 "Toggle JSX Comment Mode"
@@ -382,18 +381,20 @@ Nerdtree is a sidemenu for Vim, activate it by holding \f(CWctrl\fP and pressing
 Snippets, Emmet, Tabnine, and other Completion suggestions will appear when typing in certain Vim files, press the \f(CWtab\fP button to cycle through the options and \f(CWspace\fP or \f(CWenter\fP to select the option. 
 .HEADING 2 "VRC"
 .PP
-To send HTTP requests for a websile, create a file with the \f(CW.rest\fP extension. Write the HTTP request and then while hovering over it, hold \f(CWctrl\fP and  press \f(CWj\fP. 
+To send HTTP requests for a websile, create a file with the \f(CW.rest\fP extension. Write the HTTP request and then while hovering over it, hold \f(CWctrl\fP and  press \f(CWj\fP. \br
 An Example of a request: \br
 \f(CWhttp://localhost:9200
-\fP \br
-\f(CWGET /testindex/testtype
+\br
+GET /testindex/testtype
 \fP
+.PDF_WWW_LINK "https://github.com/preservim/nerdcommenter"
+\(en Check the Github repo for a full guide
 .HEADING 2 "Dadbod / Dadbod-UI"
 .PP
-Dadbod is set up to run from the terminal directly by simply typing the command \f(cwdb\fp. Connect to a mongodb server by entering the URL and selecting \f(CW+ New query\fP, the user will then be positioned in the querywindow where they can write a query and send it by saving it (\f(CW:w\fP), all saved queries are send to the folder \f(CW~/Development/dbui-buffers\fP. Press \f(CW?\fP while in the Dadbod-UI menu pane open to see all options.
+Dadbod is set up to run from the terminal directly by simply typing the command \f(cwdb\fp. Connect to a mongodb server by entering the URL and selecting \f(CW+New query\fP, the user will then be positioned in the query pane where they can write a query and send it by saving it (\f(CW:w\fP), all saved queries are sent to the folder \f(CW~/Development/dbui-buffers\fP. Press \f(CW?\fP while in the Dadbod-UI menu pane to see all options.
 .HEADING 2 "Tmux Navigator"
 .PP 
-TMUX is gernerally not needed with MERNROD because its much easier to use Nerdtree and DWM to have multiple files open, however it is required to move around VRC, Nerdtree and Dadbod-UI using the Tmux window commands, by holding \f(CWCrtl\fP and using the Vim Keybindings (\f(cwh,j,k,l\fp). 
+Tmux Navigator is required to move around VRC, Nerdtree and Dadbod-UI, do this by holding \f(CWCrtl\fP and using the Vim Keybindings (\f(cwh,j,k,l\fp). 
 .HEADING 2 "Zoom"
 .PP
 When using Dadbod-UI and other plugins with multiple panes, sometimes its necissary to zoom in on one pane, do this by pressing \f(CWbackslash\fp and then \f(CWz\fp.
